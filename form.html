@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up </title>
     <link rel="stylesheet" href="assetes/css/form.css">
 </head>
+
 <body>
-    
-    <!-- Form sign in -->
+
     <div class="container">
         <div class="form-container">
+            <!-- Form signin -->
             <div class="signin">
                 <form action="#" class="form-sign-in">
+                    <h1>SIGN IN</h1>
                     <input type="text" placeholder="username">
                     <input type="password" placeholder="password">
                     <a href="#">Forgot your password</a>
                     <button>SIGN IN</button>
                 </form>
             </div>
+
+            <!-- Form signup -->
+            <div class="signup">
+                <form action="#" class="form-sign-up">
+                    <h1>SIGN UP</h1>
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="email">
+                    <input type="password" placeholder="password">
+                    <button>SIGN UP</button>
+                </form>
+            </div>
+
         </div>
+        
+        <!-- Overlay -->
+        <div class="overlay">
+            <div class="overlay-panel overlay-signin"></div>
+            <div class="overlay-panel overlay-signup"></div>
+        </div>
+
     </div>
+
+
+
+
+
+
 
 
 
 
     <script src="assetes/js/form.js"></script>
 </body>
+
 </html>
