@@ -144,4 +144,25 @@ body{
     padding: 30px;
 }
 
-/* ถึงเลาที่ 11.24 */
+.btn-overlay{
+    border: 1px solid white;
+}
+
+/* เป็นการจัดตำแหน่งของวัตถุที่ทับซ้อนกัน */
+.overlay-signup{
+    top: 0;
+    transition: 0.8s;
+}
+
+.overlay-signin{
+    bottom: -100%;
+    transition: 0.8s;
+}
+
+.overlay-signin-show{
+    bottom: 0;
+}
+
+.overlay-signup.hide{
+    top: 100%;
+}
